@@ -1,9 +1,3 @@
-fun main() {
-    val tokens = listOf("10","6","9","3","+","-11","*","/","*","17","+","5","+")
-    val v = Solution().evalRPN(tokens.toTypedArray())
-    println(v)
-}
-
 class Solution {
     fun evalRPN(tokens: Array<String>): Int {
 
