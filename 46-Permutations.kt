@@ -1,11 +1,3 @@
-fun main() {
-
-    val x = listOf(1, 2, 3)
-    val v = Solution().permute(x.toIntArray())
-    println(v)
-}
-
-
 class Solution {
     fun permute(nums: IntArray): List<List<Int>> {
         val result = mutableListOf<List<Int>>()
