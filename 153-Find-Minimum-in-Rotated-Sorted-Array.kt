@@ -1,12 +1,3 @@
-fun main() {
-
-    val x = listOf(11, 13, 15, 17)
-    val v = Solution().findMin(x.toIntArray())
-    println(v)
-
-}
-
-
 class Solution {
     fun findMin(nums: IntArray): Int {
         if (nums.size == 1) {
