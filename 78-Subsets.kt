@@ -1,10 +1,3 @@
-fun main() {
-
-    val x = listOf(4, 1, 4, 4)
-    val v = Solution().subsetsWithDup(x.toIntArray())
-    println(v)
-}
-
 class Solution {
     fun subsetsWithDup(nums: IntArray): List<List<Int>> {
         val result = mutableListOf<List<Int>>()
