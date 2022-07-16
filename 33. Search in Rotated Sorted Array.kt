@@ -1,11 +1,3 @@
-fun main() {
-
-    val x = listOf(4, 5, 6, 7, 0, 1, 2)
-    val v = Solution().search(x.toIntArray(), 0)
-    println(v)
-
-}
-
 class Solution {
     fun search(nums: IntArray, target: Int): Int {
 
@@ -20,7 +12,6 @@ class Solution {
                     val partitionAtLeft = nums[l] > nums[midIndex]
 
                     return if (partitionAtLeft) {
-
                         if (target >= nums[l] || target < nums[midIndex]) {
                             reSearch(l, midIndex - 1)
                         } else {
