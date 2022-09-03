@@ -1,2 +1,2 @@
 # leetcode_practice
-I'll just record here leetcode practices in kotlin
+I'll just record here leetcode practices
